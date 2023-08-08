@@ -1,14 +1,13 @@
-# gmail-para-kindle
-## Para utilizar
-- esteja logado na sua conta google.
-- crie um arquivo no <a href="https://script.google.com/home">apps script</a>.
-- adicione ou copie o codigo para o arquivo.
-- coloque nas variáveis os valores indicados no nome delas. </br>
-<b>Por exemplo:</b> var label: 'newsletters';
-- adicione um filtro no seu gmail para adicionar automaticamente determinados e-mails para a label definida.
-- Execute o Trigger, ele vai rodar de 10 em 10 minutos para verificar se existem novos e-mails.
-## Observações
- - Esse script foi feito principalmente para ler newsletters.
- - Caso haja uma resposta ao e-mail esse não será enviado ao Kindle pois ele só envia a primeira mensagem de um e-mail
- - O arquivo enviado será em pdf
+# gmail-to-kindle
+## Follow this steps
+1. Login on your google account.
+2. Create a file in [Apps Script](https://script.google.com/home).
+3. Add or copy the code to the file.
+4. Put in the variables the values indicated in their name. **For example:** var *label*: *'newsletters'*;
+5. Add a filter in your gmail to automatically add certain emails to the defined label.
+6. Run the Trigger, it will run every 10 minutes to check if there are new emails.
+## Notes
+  - This script was initially made to read newsletters.
+  - If there is a response to the e-mail, it will not be sent to the Kindle as it only sends the first message of an e-mail thread
+  - The file sent will be in pdf
 
