@@ -7,7 +7,7 @@ function setUpTrigger() {
 
 function emailToKindle() {
 
-    const label = '<nomeLabel>';
+    const label = '<nameLabel>';
     const kindleEmail = '<emailKindle>@kindle.com'
 
     const labelThreads = GmailApp.getUserLabelByName(label).getThreads();
